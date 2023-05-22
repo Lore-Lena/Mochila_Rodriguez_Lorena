@@ -1,0 +1,32 @@
+Generar repositorio local vacío
+$ git init
+
+Agregar identidad
+$ git config user.name "mi-usuario"
+
+Agregar correo electrónico
+$ git config user.email "micorreo@..."
+
+Agregar archivos
+$ git add
+
+Verificar status de archivos respecto al repositorio
+$ git status
+
+Para crear un commit
+$ git commit -m "mensaje, resumen de lo hecho"
+
+Visualizar historial de los cambios en nuestros proyectos
+$ git log
+
+Sincronizar repositorio local al remoto
+$ git remote add origin URLGit-Hub
+
+Subir archivos
+$ git push origin <branch>
+
+Bajar archivos
+$ git pull origin <branch>
+
+Clonar archivos existente en repositorio remoto
+git clone URL
